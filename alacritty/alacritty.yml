@@ -4,27 +4,28 @@ window:
   padding:
     x: 6
     y: 6
+  dynamic_title: true
 
 font:
   normal:
     # This might need to change based on how it is installed on your machine 
     family: "BlexMono Nerd Font"
-    size: 11.0
+    size: 11.0 # 15 for Mac
     style: Medium
   italic:
     # This might need to change based on how it is installed on your machine 
     family: "BlexMono Nerd Font"
-    size: 11.0
+    size: 11.0 # 15 for Mac
     style: Italic
   bold:
     # This might need to change based on how it is installed on your machine 
     family: "BlexMono Nerd Font"
-    size: 11.0
+    size: 11.0 # 15 for Mac
     style: Bold
   bold_italic:
     # This might need to change based on how it is installed on your machine 
     family: "BlexMono Nerd Font"
-    size: 11.0
+    size: 11.0 # 15 for Mac
     style: BoldItalic
 
 draw_bold_text_with_bright_colors: true
