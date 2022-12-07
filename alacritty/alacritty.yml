@@ -1,0 +1,42 @@
+window:
+  opacity: 0.97
+ 
+  padding:
+    x: 6
+    y: 6
+
+font:
+  normal:
+    # This might need to change based on how it is installed on your machine 
+    family: "BlexMono Nerd Font"
+    size: 11.0
+    style: Medium
+  italic:
+    # This might need to change based on how it is installed on your machine 
+    family: "BlexMono Nerd Font"
+    size: 11.0
+    style: Italic
+  bold:
+    # This might need to change based on how it is installed on your machine 
+    family: "BlexMono Nerd Font"
+    size: 11.0
+    style: Bold
+  bold_italic:
+    # This might need to change based on how it is installed on your machine 
+    family: "BlexMono Nerd Font"
+    size: 11.0
+    style: BoldItalic
+
+draw_bold_text_with_bright_colors: true
+
+scrolling:
+  history: 100000
+  multiplier: 3
+
+cursor:
+  unfocused_hollow: true
+
+live_config_reload: true
+
+# Change this to your working directory
+working_directory: Documents/repomgr/
