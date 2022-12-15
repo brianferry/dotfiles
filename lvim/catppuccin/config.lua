@@ -1,7 +1,7 @@
 local present, catppuccin = pcall(require, "catppuccin")
 if not present then return end
 
-require("catppuccin").setup {
+catppuccin.setup {
   flavour = "mocha", -- latte, frappe, macchiato, mocha
   term_colors = true,
   transparent_background = false,
@@ -21,19 +21,11 @@ require("catppuccin").setup {
     types = {},
   },
   color_overrides = {
-    latte = {
-      base = "#E1EEF5",
-    },
     mocha = {
       base = "#000000",
     },
   },
   highlight_overrides = {
-    latte = function(_)
-      return {
-        NvimTreeNormal = { bg = "#D1E5F0" },
-      }
-    end,
     mocha = function(C)
       return {
         TabLineSel = { bg = C.pink },
@@ -47,4 +39,5 @@ require("catppuccin").setup {
   },
 }
 
-vim.builtin.lualine.options.theme = "catppuccin"
+-- vim.builtin.lualine.options.theme = "catppuccin"
+vim.cmd.colorscheme "catppuccin"
